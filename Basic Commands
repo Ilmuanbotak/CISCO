@@ -1,0 +1,9 @@
+1.enable ==> untuk masuk ke privillidge mode
+2.configure terminal ==> untuk masuk ke global configuration
+
+3.do ===> digunakan ketika ingin menjalankan command, yang seharusnya command itu bisa dijalankan di privillidge mode, tapi kita berada di mode global configuration
+  ex = do ping 8.8.8.8
+
+4.enable password 123 ==> digunakan untuk memberikan password pada perangkat cisco saat akan login / masuk ke privillidge mode, tapi tidak secure
+5.enable secret 123 ==> ini lebih secure, karena password, di enkripsi, jadi ketika kita mengetikan perintah show running-status, 
+  dia akan menampilkan sandi kita dalam bentuk enkripsi
