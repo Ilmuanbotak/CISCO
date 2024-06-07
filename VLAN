@@ -1,0 +1,5 @@
+Manfaat Vlan :
+1. Broadcast domain
+2. Management
+
+Ibarat satu switch punya 3 vlan , secara pysichal 1 switch, tapi secara logical jadi punya 3 switch
