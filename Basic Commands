@@ -7,3 +7,12 @@
 4.enable password 123 ==> digunakan untuk memberikan password pada perangkat cisco saat akan login / masuk ke privillidge mode, tapi tidak secure
 5.enable secret 123 ==> ini lebih secure, karena password, di enkripsi, jadi ketika kita mengetikan perintah show running-status, 
   dia akan menampilkan sandi kita dalam bentuk enkripsi
+
+
+######
+command untuk save configuration di cisco
+
+write atau
+copy running-config startup-config
+
+nb : selama konfigurasi belum di save maka semua konfigurasi berada di running config, jika sudah di save maka konfigurasi akan berada di startup-config
