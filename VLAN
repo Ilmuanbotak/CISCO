@@ -3,3 +3,15 @@ Manfaat Vlan :
 2. Management
 
 Ibarat satu switch punya 3 vlan , secara pysichal 1 switch, tapi secara logical jadi punya 3 switch
+
+
+
+###############
+show mac-address-table dynamic
+==>untuk menampilkan daftar mac address di perangkat router / switch
+
+
+###############
+clear mac-address-table dynamic
+--->untuk menghapus mac-address table
+
