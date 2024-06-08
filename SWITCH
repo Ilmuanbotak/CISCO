@@ -36,3 +36,5 @@ Trunk = Digunakan untuk melawatkan banyak interfaces vlan
 access = Hanya bisa melewatkan satu interface vlan
 
 #########################
+
+kita bisa membuat VLAN 1 - 4095 
