@@ -1,0 +1,32 @@
+###########################
+MENAMBAHKAN VLAN 20 (VLAN ACCESS)
+
+enable
+configure terminal
+interface fa0/0
+switchport mode access
+switchport access vlan 20
+
+##########################
+MENAMBAHKAN VLAN 20 (VLAN TRUNK)
+
+enable
+configure terminal
+interface gig0/0
+switcport mode trunk
+switchport trunk allowed vlan 20
+
+
+###########################
+show vlan
+---> untuk menampilkan vlan database
+
+
+##########################
+show ip interface brief
+---> untuk menampilkan table ip address dan status interface
+
+show interface status
+---> untuk menampilkan vlan dan interface vlan
+
+#########################
