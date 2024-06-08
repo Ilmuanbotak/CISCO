@@ -30,3 +30,9 @@ show interface status
 ---> untuk menampilkan vlan dan interface vlan
 
 #########################
+2 Jenis VLAN
+
+Trunk = Digunakan untuk melawatkan banyak interfaces vlan
+access = Hanya bisa melewatkan satu interface vlan
+
+#########################
