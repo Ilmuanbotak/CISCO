@@ -1,0 +1,2 @@
+show ip interfaces brief
+---> untuk menampilkan table interfaces dan ip yang di assigned
