@@ -38,3 +38,11 @@ access = Hanya bisa melewatkan satu interface vlan
 #########################
 
 kita bisa membuat VLAN 1 - 4095 
+
+#########################
+interfaces range fa0/1-5
+--> berarti kita akan melakukan konfigurasi bebarengan dari interface fa 0/1 sampai fa 0/5
+
+#########################
+interfaces range fa0/1, fa0/3
+--> berarti hanya melakukan konfigurasi interface fa0/1 dan fa 0/2
