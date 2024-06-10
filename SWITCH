@@ -46,3 +46,8 @@ interfaces range fa0/1-5
 #########################
 interfaces range fa0/1, fa0/3
 --> berarti hanya melakukan konfigurasi interface fa0/1 dan fa 0/2
+
+########################
+switchport trunk encapsulation dot1q
+--> mendefinisikan interfaces trunk menggunakan protocol 802.1q, agar bisa terhubung antar vendor perangkat jaringan.
+sedangkan protocol vlan ISL hanya bisa digunakan untuk menghubungkan perangkat jaringan sesama CISCO.
