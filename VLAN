@@ -15,3 +15,8 @@ show mac-address-table dynamic
 clear mac-address-table dynamic
 --->untuk menghapus mac-address table
 
+###############
+Jenis VLAN ini terbagi menjadi dua, yaitu Inter Switch Link (ISL) dan IEEE 802.1 Q. 
+ISL merupakan properti Cisco sehingga hanya dapat digunakan antara switch buatan Cisco. 
+Sedangkan IEEE 802.1 Q dapat melakukan standarisasi beberapa protokol yang berkaitan dengan LAN.
+
